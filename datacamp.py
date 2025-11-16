@@ -12,6 +12,8 @@ t = torch.tensor([1,2,3])
 t.dtype
 t.shape
 t.device
+
+torch.tensor([1,2,3])
 torch.zeros(2,3)
 torch.randn(3, 10)
 
@@ -23,8 +25,9 @@ x = torch.randn(3, 10)   # shape: (batch, in_features)
 y = linear(x)            # shape: (3, 5)
 print(y)
 
-.weight
-.bias
+linear.weight
+linear.bias
+
 nn.Sigmoid()
 nn.Softmax(dim=-1)
 nn.ReLU()
