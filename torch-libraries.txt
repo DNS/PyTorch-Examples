@@ -1,0 +1,4 @@
+TorchVision — PyTorch’s resident computer vision library.
+TorchText — PyTorch’s in-built domain library for text.
+TorchAudio — PyTorch’s domain library for everything audio.
+TorchRec — PyTorch’s newest in-built domain library for powering recommendation engines with deep learning.
